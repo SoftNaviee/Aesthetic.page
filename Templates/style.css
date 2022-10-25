@@ -132,11 +132,8 @@ h1{
       padding-left: 4vh;
       padding-right: 4vh;
       padding-top: 2vh;
-      animation: scroll 100s linear infinite;
-      background: url(../Pictures/bg-1.png);
+      background: black;
       color: #eee;
-      perspective: 1000px;
-      perspective-origin: 50% 50%;
       padding-bottom: 2vh;
       font-family: 'Neucha';
       border: none;
