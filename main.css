@@ -98,7 +98,7 @@ h2{
 .container-sp4{
   background: url(Pictures/bg-3.jpeg);
   animation: scroll 100s linear infinite;
-  color: white;
+  color: #eee;
   height: 94vh;
   width: 300px;
   margin: 4em;
