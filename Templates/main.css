@@ -1,0 +1,495 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Neucha';
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 20px;
+}
+.nav-main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  animation: scroll 180s linear infinite;
+  background: url(../Pictures/bg-1.png);
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-radius: 5px;
+  box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+  margin: 1.3em;
+}
+.content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 70px;
+}
+.social-btn{
+  width: 200px;
+  margin: 0.6em;
+  font-family: 'Neucha';
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.aq-btn{
+  width: 200px;
+  margin: 0.6em;
+  font-family: 'Neucha';
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: transparent;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.aq2-btn{
+  width: 200px;
+  margin: 0.6em;
+  font-family: 'Neucha';
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: transparent;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.aq3-btn{
+  width: 200px;
+  margin: 0.6em;
+  font-family: 'Neucha';
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.size-btn{
+  width: 260px;
+  margin-top: 0.6em;
+  font-family: 'Neucha';
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: black;
+  border: none;
+  border-radius: 6px;
+}
+.profile-pic{
+  height: 30vh;
+  width: 30vh;
+  padding-top: 15px;
+  border-radius: 110%;
+}
+.showpage-1{
+  display: flex;
+  flex-basis: 33%;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+}
+.container-sp2{
+  background: black;
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+  width: 300px;
+  margin: 4em;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  animation: scroll 70s linear infinite;
+  background: url(pictures/bg-2.jpg);
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+@media (max-width:700px) {
+  .container-sp1{
+      height: 110vh;
+ }
+}
+.container-sp3{
+  background: black;
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  width: 300px;
+  margin: 4em;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  animation: scroll 70s linear infinite;
+  background: url(pictures/bg-3.jpg);
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+.container-sp5{
+  background: black;
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+  width: 300px;
+  margin: 4em;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  animation: scroll 70s linear infinite;
+  background: url(pictures/bg-5.jpg);
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+.container-sp10{
+  background: black;
+  height: 110vh;
+  color: black;
+  width: 300px;
+  margin: 4em;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-8.jpeg);
+  background-size: cover;
+  overflow: hidden;
+  color: #eee;
+}
+.container-sp13{
+  background: black;
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  width: 300px;
+  margin: 4em;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-12.jpg);
+  background-size: cover;
+  overflow: hidden;
+  color: #eee;
+}
+.container-sp14{
+  background: black;
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  width: 300px;
+  margin: 4em;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-13.jpg);
+  background-size: cover;
+  overflow: hidden;
+  color: #eee;
+}
+.container-sp22{
+  background: black;
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  width: 300px;
+  margin: 4em;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg21.jpg);
+  background-size: cover;
+  overflow: hidden;
+  color: #eee;
+}
+.container-sp23{
+  background: black;
+  height: 110vh;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  color: black;
+  width: 300px;
+  margin: 4em;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg22.jpg);
+  color: white;
+}
+.container-sp24{
+  background: black;
+  height: 110vh;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  color: black;
+  width: 300px;
+  margin: 4em;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg23.jpg);
+  color: white;
+}
+.container-sp1{
+  background: black;
+  height: 110vh;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  color: black;
+  width: 300px;
+  margin: 4em;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-10.jpg);
+  color: black;
+}
+.container-sp16{
+  background: black;
+  height: 110vh;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  color: black;
+  width: 300px;
+  margin: 4em;
+  background-size: contain;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-15.jpg);
+  color: black;
+}
+.container-sp17{
+  background: black;
+  height: 110vh;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  color: black;
+  width: 300px;
+  margin: 4em;
+  background-size: contain;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-16.jpg);
+  color: black;
+}
+.box-1{
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 700px) {
+  .box-1{
+      display: contents;
+ }
+}
+.container-sp15{
+  background: black;
+  height: 110vh;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  width: 300px;
+  margin: 4em;
+  color: black;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-14.jpg);
+  background-size: cover;
+  color: black;
+}
+.container-sp11{
+  background: black;
+  height: 110vh;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  width: 300px;
+  margin: 4em;
+  color: black;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-10.jpg);
+  background-size: cover;
+  color: black;
+}
+.container-sp12{
+  background: black;
+  height: 110vh;
+  width: 300px;
+  margin: 4em;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-11.jpg);
+  background-size: cover;
+}
+.container-sp6{
+  background: black;
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+  width: 300px;
+  margin: 4em;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  animation: scroll 70s linear infinite;
+  background: url(pictures/mw.jpg);
+  overflow: hidden;
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+.container-sp4{
+  height: 110vh;
+  width: 300px;
+  margin: 4em;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  animation: scroll 70s linear infinite;
+  background: url(pictures/bg-4.jpg);
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+.container-sp8{
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+  width: 300px;
+  margin: 4em;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/cute.jpg);
+  background-size: cover;
+  color: #eee;
+}
+.container-sp9{
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  width: 300px;
+  margin: 4em;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-7.jpg);
+  background-size: cover;
+  color: #eee;
+}
+.container-sp21{
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  width: 300px;
+  background-size: contain;
+  margin: 4em;
+  text-align: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  background: url(pictures/bg-20.jpg);
+  color: #eee;
+}
+.container-sp7{
+  background: black;
+  height: 110vh;
+  width: 300px;
+  margin: 4em;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  animation: scroll 70s linear infinite;
+  background: url(pictures/bg-6.jpeg);
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+.container-sp1{
+  background: black;
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  animation: scroll 70s linear infinite;
+  background: url(pictures/bg-1.png);
+  width: 300px;
+  margin: 4em;
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+.container-sp20{
+  background: black;
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  animation: scroll 70s linear infinite;
+  background: url(pictures/bg-19.png);
+  width: 300px;
+  margin: 4em;
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+.container-sp19{
+  background: black;
+  height: 110vh;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  animation: scroll 70s linear infinite;
+  background: url(pictures/bg-18.jpg);
+  width: 300px;
+  margin: 4em;
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+.container-sp18{
+  background: black;
+  height: 110vh;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+  animation: scroll 70s linear infinite;
+  background: url(pictures/bg-17.jpg);
+  width: 300px;
+  margin: 4em;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+@keyframes scroll {
+  100%{
+      background-position:0px -3000px;
+ }
+}
+#request{
+  font-size: 25px;
+  font-family: 'Neucha';
+  border-radius: 6px;
+  width: 90%;
+  resize: none;
+  margin-top: 0.5em;
+  height: 150px;
+}
+#request:focus{
+outline: none;
+}
+.liner-request{
+  padding-top: 30px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet'>
+    <title>Create!</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel = "icon" href = "../Official.JPEG" type = "image/x-icon">
+</head>
+<body>
+    <div class="nav-main">
+        <div class="nav">
+            <a href="../index.html">Templates</a>
+        </div>
+    </div>
+  <div class="wrapper">
+    <div class="container">
+    <div id="create" class="content-wrapper">
+        <div class="content-container">
+            <h1>So What Are You Waiting For? <br> Create Your Page Now!</h1>
+            <div class="box">
+                <a class="button" href="#guide">Guide</a>
+            </div>
+            <div id="guide" class="overlay">
+                <div class="popup">
+                    <h2>Guide</h2>
+                    <a class="close" href="#contactform">&times;</a>
+                    <div class="content">
+                     Congrats For Making It This Far! <br> Now Let's Start With Making Your Page! <br> Name(Enter Your Profile Name) <br> Pronouns (Enter Your Pronouns. he/him, she/her, they/them etc!)<br> Status (Add A Custom Status To Your Profile example- online, alive etc)<br> Email (Email Is Very Important! We'll Email You The Link Once Your Page Is Ready. Make Sure To Enter It Carefully!!)
+                     <br> Phone Number (Phone Number Is Optional But Recommended For Business Owners To Add it!) <br> Url (Enter The Page Url. Example- aesthetic.pages/name. it doesn't have to specifically be your name. you can name it anything!)<br>
+                     Links (Now You Have To Add Your Social Media Or Other links here. These Are Also Optional) <br>
+                     Font (Select What Type Of Font You Want To Use!)<br>
+                     Bio (Now Add Your Bio (No Character Limit!)<br>
+                     Profile Pic (Now Add Your Profile Pic!
+                     <br> Congrats Now Click The Submit Button (Pages Usually Take A Few Hours To Active! We'll Email You Once It's Activated!)
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    <div class="filler">
+    <form id="Submit-Form" action="index.html">
+        <fieldset class="f-1">
+        <span>Template: </span><br><input value="Cute Road" id="template" required type="text" readonly><br>
+        <span>Name : </span><br><input placeholder="Enter Your Name.." id="name" required type="text"><br>
+        <span>Pronouns : </span><br><input placeholder="Enter Your Pronouns.." id="pronouns" required type="text"><br>
+        <span>Status:</span><br><input placeholder="Custom Status.." id="status" required type="text"><br>
+        <span>Email : </span><br><input placeholder="Enter Your Email.." id="email" required type="text"><br>
+        <span>Phone Number <br> (Optional): </span><br><input placeholder="Phone number.." id="number"><br>
+         <span>Url : </span><br><input value="Aesthetic.page/" id="url" required type="text"><br>
+         <span>Youtube:</span><br><input placeholder="www.youtube.com/" id="youtube"><br>
+         <span>Instagram:</span><br><input placeholder="@username" id="instagram"><br>
+         <span>Twitter:</span><br><input placeholder="@username" id="twitter"><br>
+         <span>Spotify:</span><br><input placeholder="@username" id="spotify"><br>
+         <span>Facebook:</span><br><input placeholder="@username" id="facebook"><br>
+         <span>Website:</span><br><input placeholder="Website Url.." id="website"><br>
+         <span>Others:</span><br><input placeholder= "Other Url's.." id="others"><br>
+         <span>Font:</span><br><input placeholder= "Neucha Etc." id="font"><br>
+         <span>Custom Request:<br></span><textarea id="request"></textarea>
+         <br>
+        <span>Bio: <br></span><textarea id="message" name="comments" ></textarea>
+        <br>
+        <div class="liner-request">
+            <span>Custom Request:<br></span><textarea id="request"></textarea></div>
+            <br>
+        <input type="file" style="opacity: 0;"  id="photo"><br>
+        <label for="photo" class="pfp-upload">Select Profile-pic</label><br>
+        <button id="btn" type="submit" onclick="func()">Submit</button><br>
+        <div class="alert">Order Placed! <br> (Usually Takes A Few Hours To Active The Page. <br> You'll Be Sent A Email Once The Page Is Activated! <br> Thanks For Using Our Service!</div>
+    </fieldset>
+    </form> 
+</div>
+<div id="contact" class="content-wrapper">
+    <div class="content-container">
+        <p>@ 2022 Aesthetic.Page All Rights Reserved</p>
+        </div>
+        </div>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase.js"></script>
+</body>
+<script src="main.js"></script>
+</html>

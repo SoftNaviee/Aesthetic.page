@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet'>
+    <link rel = "icon" href = "Official.JPEG" type = "image/x-icon">
+    <title>Aesthetic!</title>
+    <style>
+        body{
+            font-family: 'Neucha';
+        }
+        .container-page{
+            animation: scroll 100s linear infinite;
+            background: url(bg.jpg);
+            color: white;
+            perspective: 1000px;
+            perspective-origin: 50% 50%;
+            height: 115vh;
+            border-radius: 27px;
+            padding-bottom: 30px;
+            text-align: center;
+            box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+        }
+        .content-wrapper{
+           display: flex;
+           justify-content: center;
+           align-content: center;
+           text-align: center;
+           padding-top: 70px;
+        }
+        .profile-pic{
+           height: 30vh;
+           width: 30vh;
+           padding-top: 15px;
+           border-radius: 110%;
+        }
+        .social-btn{
+           width: 200px;
+           margin: 0.6em;
+           font-family: 'Neucha';
+           padding-top: 2vh;
+           padding-bottom: 2vh;
+           background: transparent;
+           border: none;
+           color: white;
+           border-radius: 6px;
+           box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+        }
+      .showpage{
+           display: flex;
+           justify-content: center;
+           align-content: center;
+           padding-top: 50px;
+        }
+        @keyframes scroll {
+  100%{
+      background-position:0px -3000px;
+ }
+}
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div clas="content-container">
+            <h1>Our Official Page!</h1>
+                    <div class="showpage">
+                        <div class="container-page">
+                            <img src="Official.JPEG" class="profile-pic">
+                            <h1>Aesthetic.page</h1>
+                            <p>Online</p>
+                            <p>Email- official.aesthetic.page@gmail.com</p>
+                            <p>Sometimes You Just Need To Imagine!<br>Official Page Of www.Aesthetic.page! <br>Links To Our Social Media Handles Are Given Below!</p>
+                            <button onclick="location.href='https://www.instagram.com/official.aesthetic.page/'"   class="social-btn">Instagram</button><br>
+                            <button onclick="location.href='https://twitter.com/aestheticpage__'"class="social-btn">Twitter</button><br>
+                            <button onclick="location.href='https://aesthetic.page/'" class="social-btn">Website</button><br>
+                            <button onclick="location.href='https://www.patreon.com/Naviee/'" class="social-btn">Patreon</button><br>
+                        </div>
+                    </div>
+              </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,391 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'Neucha';
+    scroll-behavior: smooth;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 25px;
+}
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.btn-1{
+    width: 100px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-family: 'Neucha';
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px 3px  rgba(0, 0,0,0.2)
+}
+.profile-pic{
+    height: 30vh;
+    width: 30vh;
+    padding-top: 15px;
+    border-radius: 110%;
+}
+.social-btn{
+    width: 200px;
+    margin: 0.6em;
+    font-family: 'Neucha';
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.social-btn2{
+  width: 200px;
+  margin: 0.6em;
+  font-family: 'Neucha';
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: black;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.box-1{
+  display: flex;
+  justify-content: space-between;
+}
+.showpage-1{
+    display: flex;
+    flex-basis: 33%;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+}
+@media (max-width:700px) {
+  .box-1{
+    display:contents;
+  }
+  
+}
+.container-sp1{
+    animation: scroll 100s linear infinite;
+    background: url(pictures/bg-2.png);
+    color: #eee;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    height: 94vh;
+    width: 300px;
+    margin: 4em;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+}
+.container-sp4{
+  animation: scroll 100s linear infinite;
+  background: url(pictures/bg-3.jpg);
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  height: 94vh;
+  width: 300px;
+  margin: 4em;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+}
+.aq-btn{
+  width: 200px;
+  margin: 0.6em;
+  font-family: 'Neucha';
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: transparent;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.container-sp2{
+  background: #F4AB6A;
+  height: 94vh;
+  width: 300px;
+  margin: 4em;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+}
+.container-sp3{
+  background: #fffacd;
+  height: 94vh;
+  width: 300px;
+  margin: 4em;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+}
+.container-sp5{
+  background: white;
+  height: 26vh;
+  border-radius: 27px;
+  flex-basis: 60%;
+  width: 300px;
+  margin: 4em;
+  padding-bottom: 30px;
+  text-align: center;
+  box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+}
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .button {
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-family: 'Neucha';
+    animation: scroll 100s linear infinite;
+    background: url(pictures/bg-1.png);
+    color: #eee;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px 3px  rgba(0, 0,0,0.2)
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: 'Neucha';
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-family: 'Neucha';
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+  .dis-1{
+    padding-top: 30px;
+  }
+
+.filler{
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.f-1{
+  border: none;
+}
+.filler span{
+  color: black;
+  font-family: 'Neucha';
+}
+input:focus {
+  outline:none !important;
+}
+
+  #Submit-Form{
+    padding-top: 30px;
+    border-radius: 40px;
+    border: 10px solid black;
+    height: 415vh;
+    background: white;
+    box-shadow: 1px 8px 8px 18px rgba(0, 0,0,0.2);
+}
+@media (max-width: 700px) {
+  #Submit-Form{
+    height: 465vh;
+  }
+  
+}
+span
+{
+    color: black;
+    font-size: 35px;
+}
+#email,#name, #pronouns,#url, #number, #youtube, #instagram, #twitter,#template, #spotify, #facebook, #others, #website, #font, #shadow, #btcolour, #bcolour, #tcolour{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 1.5em;
+    font-family:'Neucha' ;  
+    color: black;
+    max-width: 100%;
+}
+#message{
+    font-size: 25px;
+    font-family: 'Neucha';
+    border-radius: 6px;
+    width: 90%;
+    resize: none;
+    margin-top: 0.5em;
+    height: 150px;
+}
+#message:focus{
+  outline: none;
+}
+#request{
+  font-size: 25px;
+  font-family: 'Neucha';
+  border-radius: 6px;
+  width: 90%;
+  resize: none;
+  margin-top: 0.5em;
+  height: 150px;
+}
+#request:focus{
+outline: none;
+}
+.liner-request{
+  padding-top: 30px;
+}
+#btn{
+  padding-left: 14vh;
+  padding-right: 14vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-top: 20px;
+  font-family: 'Neucha';
+  animation: scroll 100s linear infinite;
+  background: url(pictures/bg-1.png);
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 3px 3px 3px 3px  rgba(0, 0,0,0.2)
+}
+#btn:focus{
+  outline: none;
+}
+.btn{
+  padding-left: 14vh;
+  padding-right: 14vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-top: 20px;
+  font-family: 'Neucha';
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 3px 3px 3px 3px  rgba(0, 0,0,0.2)
+}
+.btn:focus{
+  outline: none;
+}
+.alert{
+    text-align: center;
+    padding-top: 30px;
+    color:black;
+    width: 0;
+    font-size: 15px;
+    z-index: 1;
+    overflow-x: hidden;
+    position: absolute;
+    transition: 0.6s;
+  }
+.pfp-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0,0,0.2);
+}
+
+.liner-2{
+  padding-top: -30px;
+}
+
+.nav-main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  animation: scroll 100s linear infinite;
+  background: url(pictures/bg-1.png);
+  color: #eee;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-radius: 5px;
+  box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+  margin: 1.3rem;
+}
+@keyframes scroll {
+  100%{
+      background-position:0px -3000px;
+ }
+}
