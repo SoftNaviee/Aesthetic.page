@@ -96,11 +96,8 @@ h2{
     box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
 }
 .container-sp4{
-  animation: scroll 100s linear infinite;
   background: url(Pictures/bg-3.jpg);
   color: #eee;
-  perspective: 1000px;
-  perspective-origin: 50% 50%;
   height: 94vh;
   width: 300px;
   margin: 4em;
