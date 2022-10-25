@@ -170,6 +170,9 @@ body{
   overflow: hidden;
   color: #eee;
 }
+h1{
+  font-weight: lighter;
+}
 .container-sp13{
   background: black;
   height: 110vh;
