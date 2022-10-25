@@ -119,7 +119,7 @@ body{
   margin: 4em;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
   animation: scroll 70s linear infinite;
-  background: url(pictures/bg-2.jpg);
+  background: url(Pictures/bg-2.jpg);
   color: #eee;
   perspective: 1000px;
   perspective-origin: 50% 50%;
@@ -139,7 +139,7 @@ body{
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
   animation: scroll 70s linear infinite;
-  background: url(pictures/bg-3.jpg);
+  background: url(Pictures/bg-3.jpg);
   color: #eee;
   perspective: 1000px;
   perspective-origin: 50% 50%;
@@ -154,7 +154,7 @@ body{
   margin: 4em;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
   animation: scroll 70s linear infinite;
-  background: url(pictures/bg-5.jpg);
+  background: url(Pictures/bg-5.jpg);
   color: #eee;
   perspective: 1000px;
   perspective-origin: 50% 50%;
@@ -168,7 +168,7 @@ body{
   border-radius: 25px;
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-8.jpeg);
+  background: url(Pictures/bg-8.jpeg);
   background-size: cover;
   overflow: hidden;
   color: #eee;
@@ -182,7 +182,7 @@ body{
   margin: 4em;
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-12.jpg);
+  background: url(Pictures/bg-12.jpg);
   background-size: cover;
   overflow: hidden;
   color: #eee;
@@ -196,7 +196,7 @@ body{
   margin: 4em;
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-13.jpg);
+  background: url(Pictures/bg-13.jpg);
   background-size: cover;
   overflow: hidden;
   color: #eee;
@@ -210,7 +210,7 @@ body{
   margin: 4em;
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg21.jpg);
+  background: url(Pictures/bg21.jpg);
   background-size: cover;
   overflow: hidden;
   color: #eee;
@@ -225,7 +225,7 @@ body{
   width: 300px;
   margin: 4em;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg22.jpg);
+  background: url(Pictures/bg22.jpg);
   color: white;
 }
 .container-sp24{
@@ -238,7 +238,7 @@ body{
   width: 300px;
   margin: 4em;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg23.jpg);
+  background: url(Pictures/bg23.jpg);
   color: white;
 }
 .container-sp1{
@@ -251,7 +251,7 @@ body{
   width: 300px;
   margin: 4em;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-10.jpg);
+  background: url(Pictures/bg-10.jpg);
   color: black;
 }
 .container-sp16{
@@ -265,7 +265,7 @@ body{
   margin: 4em;
   background-size: contain;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-15.jpg);
+  background: url(Pictures/bg-15.jpg);
   color: black;
 }
 .container-sp17{
@@ -279,7 +279,7 @@ body{
   margin: 4em;
   background-size: contain;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-16.jpg);
+  background: url(Pictures/bg-16.jpg);
   color: black;
 }
 .box-1{
@@ -301,7 +301,7 @@ body{
   margin: 4em;
   color: black;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-14.jpg);
+  background: url(Pictures/bg-14.jpg);
   background-size: cover;
   color: black;
 }
@@ -315,7 +315,7 @@ body{
   margin: 4em;
   color: black;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-10.jpg);
+  background: url(Pictures/bg-10.jpg);
   background-size: cover;
   color: black;
 }
@@ -328,7 +328,7 @@ body{
   border-radius: 25px;
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-11.jpg);
+  background: url(Pictures/bg-11.jpg);
   background-size: cover;
 }
 .container-sp6{
@@ -341,7 +341,7 @@ body{
   margin: 4em;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
   animation: scroll 70s linear infinite;
-  background: url(pictures/mw.jpg);
+  background: url(Pictures/mw.jpg);
   overflow: hidden;
   color: #eee;
   perspective: 1000px;
@@ -356,7 +356,7 @@ body{
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
   animation: scroll 70s linear infinite;
-  background: url(pictures/bg-4.jpg);
+  background: url(Pictures/bg-4.jpg);
   color: #eee;
   perspective: 1000px;
   perspective-origin: 50% 50%;
@@ -369,7 +369,7 @@ body{
   width: 300px;
   margin: 4em;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/cute.jpg);
+  background: url(Pictures/cute.jpg);
   background-size: cover;
   color: #eee;
 }
@@ -381,7 +381,7 @@ body{
   margin: 4em;
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-7.jpg);
+  background: url(Pictures/bg-7.jpg);
   background-size: cover;
   color: #eee;
 }
@@ -396,7 +396,7 @@ body{
   perspective: 1000px;
   perspective-origin: 50% 50%;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
-  background: url(pictures/bg-20.jpg);
+  background: url(Pictures/bg-20.jpg);
   color: #eee;
 }
 .container-sp7{
@@ -409,7 +409,7 @@ body{
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
   animation: scroll 70s linear infinite;
-  background: url(pictures/bg-6.jpeg);
+  background: url(Pictures/bg-6.jpeg);
   color: #eee;
   perspective: 1000px;
   perspective-origin: 50% 50%;
@@ -422,7 +422,7 @@ body{
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
   animation: scroll 70s linear infinite;
-  background: url(pictures/bg-1.png);
+  background: url(Pictures/bg-1.png);
   width: 300px;
   margin: 4em;
   color: #eee;
@@ -437,7 +437,7 @@ body{
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
   animation: scroll 70s linear infinite;
-  background: url(pictures/bg-19.png);
+  background: url(Pictures/bg-19.png);
   width: 300px;
   margin: 4em;
   color: #eee;
@@ -452,7 +452,7 @@ body{
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
   animation: scroll 70s linear infinite;
-  background: url(pictures/bg-18.jpg);
+  background: url(Pictures/bg-18.jpg);
   width: 300px;
   margin: 4em;
   color: #eee;
@@ -467,7 +467,7 @@ body{
   text-align: center;
   box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
   animation: scroll 70s linear infinite;
-  background: url(pictures/bg-17.jpg);
+  background: url(Pictures/bg-17.jpg);
   width: 300px;
   margin: 4em;
   perspective: 1000px;
