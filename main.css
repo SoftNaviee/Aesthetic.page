@@ -97,7 +97,7 @@ h2{
 }
 .container-sp4{
   background: #d7eff9;
-  color: #eee;
+  color: black;
   height: 94vh;
   width: 300px;
   margin: 4em;
@@ -113,6 +113,18 @@ h2{
   padding-bottom: 2vh;
   background: transparent;
   color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.aqt-btn{
+  width: 200px;
+  margin: 0.6em;
+  font-family: 'Neucha';
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: transparent;
+  color: black;
   border: none;
   border-radius: 6px;
   box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
