@@ -5,11 +5,11 @@ body{
     font-family: 'Neucha';
     scroll-behavior: smooth;
 }
-.h1{
-  font-size: 33px;
+h1{
+  font-weight: lighter;
 }
-.h2{
-  font-size: 28px;
+h2{
+  font-weight: lighter;
 }
 .wrapper{
     display: flex;
